@@ -66,15 +66,9 @@ antimicrobial from sequence alone is a real drug-discovery task.
   Benchmark Dataset for Antimicrobial Peptide Prediction with
   Homology-Controlled Partitioning.
   [DOI: 10.64898/2026.04.25.720793](https://doi.org/10.64898/2026.04.25.720793).
-  Names homology leakage, negative-set reliability, and length-dependent
- classifier (ConsAMPHemo S1 data, Xie et al. 2025, Protein Science)
- uses the same ESM-2 embeddings:
-+
-+Reference: Xie P, Yao L, Guan J, Chung CR, Zhao Z, Long F, Sun Z,
-+Lee TY, Chiang YC. 2025. ConsAMPHemo: A computational framework for
-+predicting hemolysis of antimicrobial peptides based on machine
-+learning approaches. *Protein Science* 34(7).
-+[DOI: 10.1002/pro.70087](https://doi.org/10.1002/pro.70087)
+     Names homology leakage, negative-set reliability, and length-dependent
+   imbalance as the three evaluation pitfalls. Our homology-controlled
+   evaluation follows its protocol.
 
 ## Supporting database: DBAASP
 
@@ -178,8 +172,17 @@ evolutionary representations the 10 hand-crafted features miss.
 ## Hemolysis (toxicity) prediction
 
 An AMP drug candidate needs potency AND low toxicity. The hemolysis
-classifier (ConsAMPHemo S1 data, Xie et al. 2025, Protein Science)
-uses the same ESM-2 embeddings:
+ classifier (ConsAMPHemo S1 data, Xie et al. 2025, Protein Science)
+ uses the same ESM-2 embeddings:
+
+Reference: Xie P, Yao L, Guan J, Chung CR, Zhao Z, Long F, Sun Z,
+Lee TY, Chiang YC. 2025. ConsAMPHemo: A computational framework for
+predicting hemolysis of antimicrobial peptides based on machine
+learning approaches. *Protein Science* 34(7).
+[DOI: 10.1002/pro.70087](https://doi.org/10.1002/pro.70087)
+ 
+ ```bash
+ /opt/anaconda3/bin/python3 scripts/train_hemolysis.py \
 
 ```bash
 /opt/anaconda3/bin/python3 scripts/train_hemolysis.py \
