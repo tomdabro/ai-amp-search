@@ -22,7 +22,7 @@ from sklearn.metrics import roc_auc_score
 from torch.utils.data import DataLoader, Dataset
 from transformers import AutoModel, AutoTokenizer
 
-MODEL_NAME = "facebook/esm2_t6_8M_UR50D"
+MODEL_NAME = "facebook/esm2_t12_35M_UR50D"
 
 
 class PeptideDataset(Dataset):
@@ -59,9 +59,9 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--data", default="data", type=Path)
     ap.add_argument("--out", default="models", type=Path)
-    ap.add_argument("--epochs", default=3, type=int)
+    ap.add_argument("--epochs", default=6, type=int)
     ap.add_argument("--batch-size", default=32, type=int)
-    ap.add_argument("--lr", default=2e-5, type=float)
+    ap.add_argument("--lr", default=3e-5, type=float)
     ap.add_argument("--seed", default=42, type=int)
     args = ap.parse_args()
 

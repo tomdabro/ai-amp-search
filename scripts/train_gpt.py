@@ -27,9 +27,9 @@ from torch.nn import functional as F
 # --- tiny GPT (nanoGPT-style) ---
 class GPTConfig:
     block_size = 64
-    n_layer = 4
-    n_head = 4
-    n_embd = 128
+    n_layer = 6
+    n_head = 6
+    n_embd = 192
     dropout = 0.1
 
 
@@ -118,9 +118,11 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--data", default="data", type=Path)
     ap.add_argument("--out", default="models", type=Path)
-    ap.add_argument("--epochs", default=30, type=int)
+    ap.add_argument("--epochs", default=100, type=int)
     ap.add_argument("--batch-size", default=64, type=int)
     ap.add_argument("--lr", default=3e-4, type=float)
+    ap.add_argument("--warmup", default=200, type=int,
+                    help="warmup steps (default 200)")
     ap.add_argument("--seed", default=42, type=int)
     args = ap.parse_args()
 
@@ -149,19 +151,50 @@ def main() -> None:
     n_params = sum(p.numel() for p in model.parameters())
     print(f"model: {n_params / 1e6:.2f}M params, block size {config.block_size}")
 
-    # Tokenize all sequences into one tensor.
-    data = torch.tensor([stoi[c] for s in seqs for c in s], dtype=torch.long)
-    print(f"total tokens: {data.numel()}")
+    # Tokenize: 90/10 train/val split by sequence.
+    rng = torch.Generator().manual_seed(args.seed)
+    n_val = max(1, int(0.1 * len(seqs)))
+    val_seqs = seqs[:n_val]
+    train_seqs = seqs[n_val:]
+    data = torch.tensor([stoi[c] for s in train_seqs for c in s], dtype=torch.long)
+    val_data = torch.tensor([stoi[c] for s in val_seqs for c in s], dtype=torch.long)
+    print(f"train tokens: {data.numel()}, val tokens: {val_data.numel()}")
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr)
     n_batches = max(1, (data.numel() - 1) // (args.batch_size * config.block_size))
-    print(f"batches per epoch: {n_batches}")
+    total_steps = n_batches * args.epochs
+    print(f"batches per epoch: {n_batches}, total steps: {total_steps}")
+
+    def lr_at(step):
+        if step < args.warmup:
+            return args.lr * (step + 1) / args.warmup
+        # cosine decay to 10% of peak
+        frac = (step - args.warmup) / max(1, total_steps - args.warmup)
+        return args.lr * (0.1 + 0.9 * 0.5 * (1 + math.cos(math.pi * frac)))
+
+    @torch.no_grad()
+    def val_loss():
+        model.eval()
+        total, n = 0.0, 0
+        for _ in range(20):
+            ix = torch.randint(0, val_data.numel() - config.block_size - 1, (args.batch_size,))
+            x = torch.stack([val_data[i:i + config.block_size] for i in ix]).to(device)
+            y = torch.stack([val_data[i + 1:i + 1 + config.block_size] for i in ix]).to(device)
+            _, loss = model(x, y)
+            total += loss.item() * len(x)
+            n += len(x)
+        model.train()
+        return total / n
 
     t0 = time.time()
+    step = 0
+    best_val = float("inf")
     for epoch in range(1, args.epochs + 1):
         model.train()
         total_loss = 0.0
         for _ in range(n_batches):
+            for g in optimizer.param_groups:
+                g["lr"] = lr_at(step)
             ix = torch.randint(0, data.numel() - config.block_size - 1, (args.batch_size,))
             x = torch.stack([data[i:i + config.block_size] for i in ix]).to(device)
             y = torch.stack([data[i + 1:i + 1 + config.block_size] for i in ix]).to(device)
@@ -170,16 +203,20 @@ def main() -> None:
             loss.backward()
             optimizer.step()
             total_loss += loss.item()
+            step += 1
         avg = total_loss / n_batches
-        print(f"epoch {epoch:3d} | loss {avg:.4f} | "
-              f"perplexity {math.exp(avg):.2f} | {time.time() - t0:.0f}s")
+        vl = val_loss()
+        if vl < best_val:
+            best_val = vl
+            torch.save({"model": model.state_dict(), "config": config,
+                        "stoi": stoi, "itos": itos},
+                       args.out / "amp_gpt.pt")
+        print(f"epoch {epoch:3d} | train {avg:.4f} | val {vl:.4f} | "
+              f"ppl {math.exp(vl):.2f} | best {best_val:.4f} | "
+              f"{time.time() - t0:.0f}s")
 
-    # Save.
     args.out.mkdir(parents=True, exist_ok=True)
-    torch.save({"model": model.state_dict(), "config": config,
-                "stoi": stoi, "itos": itos},
-               args.out / "amp_gpt.pt")
-    print(f"saved -> {args.out / 'amp_gpt.pt'}")
+    print(f"saved best (val {best_val:.4f}) -> {args.out / 'amp_gpt.pt'}")
 
 
 if __name__ == "__main__":
