@@ -1,4 +1,4 @@
-# AMP-Scan — antimicrobial peptide prediction and discovery
+# AI AMP Search
 
 A CLI tool for scientists: given any peptide sequence or FASTA file,
 predict (1) whether it is antimicrobial (AMP probability) and (2) its
