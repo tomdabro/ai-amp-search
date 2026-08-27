@@ -2,7 +2,7 @@
 
 A CLI tool for scientists: given any peptide sequence or FASTA file,
 predict (1) whether it is antimicrobial (AMP probability) and (2) its
-activity against *E. coli* (predicted log10 MIC in uM). Includes a
+activity against *E. coli* (predicted log₁₀ MIC in µM). Includes a
  generative pipeline that designs novel AMP candidates, filtered for
  activity and toxicity.
 
@@ -106,10 +106,10 @@ python3 scripts/fetch_dbaasp.py --species "Staphylococcus aureus MR" \
     --out data/dbaasp_mrsa.csv
 ```
 
-Each row: peptide sequence, target species, MIC, unit (uM or ug/ml),
+Each row: peptide sequence, target species, MIC, unit (µM or µg/ml),
 medium (TSB/MHB/BHIB). Verified: 60 peptides fetched for K.
 pneumoniae → 660 activity rows, 41 unique sequences, MIC range
-3.5e-05 to 773 uM.
+3.5 × 10⁻⁵ to 773 µM.
 
 **Why this matters:** the model in this repo is trained on GRAMPA
 (reference-strain MICs). DBAASP adds the clinical-isolate dimension —
@@ -276,7 +276,7 @@ plots/                 evaluation plots (regenerable, gitignored)
 
 - Use `/opt/anaconda3/bin/python3` (has sklearn, torch, transformers).
 - GRAMPA is on the `master` branch of `zswitten/Antimicrobial-Peptides`.
-- The MIC values are log10 uM — lower = more active.
+- The MIC values are log₁₀ µM — lower = more active.
 - The classifier is trained on GRAMPA AMPs vs UniProt proteins; it
   generalizes to short peptides but not to full-length proteins.
 - The amphipathicity filter (charge >= +2, moment >= 0.5) flags

@@ -44,7 +44,7 @@ Full pipeline (train, score, generate, evaluate) in the GitHub repo:
 ## Data
 
 - **GRAMPA** (Witten & Witten 2019, bioRxiv): 6,642 unique AMP
-  sequences with log10 MIC against E. coli.
+  sequences with log₁₀ MIC against E. coli.
   [DOI: 10.1101/692681](https://doi.org/10.1101/692681). Source
   databases: APD (Wang 2004,
   [DOI: 10.1093/nar/gkh025](https://doi.org/10.1093/nar/gkh025)),
