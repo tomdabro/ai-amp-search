@@ -66,7 +66,7 @@ antimicrobial from sequence alone is a real drug-discovery task.
   Benchmark Dataset for Antimicrobial Peptide Prediction with
   Homology-Controlled Partitioning.
   [DOI: 10.64898/2026.04.25.720793](https://doi.org/10.64898/2026.04.25.720793).
-     Names homology leakage, negative-set reliability, and length-dependent
+       Names homology leakage, negative-set reliability, and length-dependent
    imbalance as the three evaluation pitfalls. Our homology-controlled
    evaluation follows its protocol.
 
