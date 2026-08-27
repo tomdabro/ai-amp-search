@@ -13,31 +13,44 @@ activity against *E. coli* (predicted log10 MIC in uM). Includes a
 > Subject to change.
 
 **Why this matters:** antimicrobial peptides (AMPs) are the leading
-candidate to replace failing antibiotics. Romania has among the EU's
-highest AMR rates (carbapenem-resistant *K. pneumoniae* <5% in 2010 →
->40% today, ECDC). Predicting which peptide sequences are antimicrobial
-from sequence alone is a real drug-discovery task.
+candidate to replace failing antibiotics. Southern and Eastern Europe
+carry the EU's highest AMR burden (ECDC EARS-Net): Romania's
+carbapenem-resistant *K. pneumoniae* rose from <5% (2010) to >40% in
+recent years; Greece has reported ICU resistance rates of 50-80%
+(WHONET-Greece); Italy consistently ranks among the highest-burden
+countries for this pathogen. Predicting which peptide sequences are
+antimicrobial from sequence alone is a real drug-discovery task.
 
 ## Papers this is based on
 
-- **Witten & Witten 2019** — "Deep learning regression model for
-  antimicrobial peptide design" (bioRxiv, 82 citations). Built GRAMPA:
-  51,345 peptide entries with measured MICs against *E. coli*, from
-  APD/DADP/DBAASP/DRAMP/PEP_LIFE/YADAMP. Our positives + MIC targets.
-- **Lu et al. 2026** — "ML Prediction and Experimental Validation of
-  AMP Activity Differences against Gram-Positive and Gram-Negative
-  Bacteria" (ACS Omega). Random Forest on 8 physicochemical properties
-  → 82% test accuracy, validated on 18 synthesized peptides. Our
-  feature-based RF approach follows this.
-- **Sevilla-Fortuny et al. 2024** — "Improved prediction of AMR in
-  K. pneumoniae using ML" (bioRxiv). Context: ML beats rule-based
-  methods for hard antibiotics.
-- **GenPept-Curated-2025** (2026) — benchmark dataset paper naming
-  homology leakage, negative-set reliability, and length-dependent
+- **Witten J, Witten Z. 2019.** Deep learning regression model for
+  antimicrobial peptide design. *bioRxiv*. DOI: 10.1101/692681
+  (82 citations). Built GRAMPA: 51,345 peptide entries with measured
+  MICs against *E. coli*, from APD/DADP/DBAASP/DRAMP/PEP_LIFE/YADAMP.
+  Our positives + MIC targets.
+- **Lu P, Li W, Zubair M, Li L, Han G, Chu Y. 2026.** Machine Learning
+  Prediction and Experimental Validation of Antimicrobial Peptide
+  Activity Differences against Gram-Positive and Gram-Negative
+  Bacteria. *ACS Omega* 11(32):47517-47527. DOI: 10.1021/acsomega.6c01772
+  Random Forest on 8 physicochemical properties → 82% test accuracy,
+  validated on 18 synthesized peptides. Our feature-based RF approach
+  follows this.
+- **Sevilla-Fortuny J, González-Candelas F, García-González N. 2024.**
+  Improved prediction of antimicrobial resistance in *Klebsiella
+  pneumoniae* using machine learning. *bioRxiv*.
+  DOI: 10.1101/2024.12.10.627815. Context: ML beats rule-based methods
+  for hard antibiotics.
+- **Pham HT, Huynh B, Nguyen-Vo TH. 2026.** GenPept-Curated-2025: A
+  Benchmark Dataset for Antimicrobial Peptide Prediction with
+  Homology-Controlled Partitioning. DOI: 10.64898/2026.04.25.720793.
+  Names homology leakage, negative-set reliability, and length-dependent
   imbalance as the three evaluation pitfalls. Our homology-controlled
   evaluation follows its protocol.
-- **Xie et al. 2025** — ConsAMPHemo (Protein Science): hemolysis
-  prediction. Our toxicity classifier uses its data.
+- **Xie P, Yao L, Guan J, Chung CR, Zhao Z, Long F, Sun Z, Lee TY,
+  Chiang YC. 2025.** ConsAMPHemo: A computational framework for
+  predicting hemolysis of antimicrobial peptides based on machine
+  learning approaches. *Protein Science* 34(7). DOI: 10.1002/pro.70087.
+  Our toxicity classifier uses its data.
 
 ## Supporting database: DBAASP
 
