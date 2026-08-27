@@ -37,25 +37,26 @@ antimicrobial from sequence alone is a real drug-discovery task.
   Random Forest on 8 physicochemical properties → 82% test accuracy,
   validated on 18 synthesized peptides. Our feature-based RF approach
   follows this.
- - **Sevilla-Fortuny J, González-Candelas F, García-González N. 2024.**
-   Improved prediction of antimicrobial resistance in *Klebsiella
-   pneumoniae* using machine learning. *bioRxiv*.
-   [DOI: 10.1101/2024.12.10.627815](https://doi.org/10.1101/2024.12.10.627815).
-   Context: ML beats rule-based methods
-   for hard antibiotics.
-- **Jia X, Zhang J, Chen J, Wang J, Chu X, Yu W, Chen S, Zhang Q,
-  Li Z, Gao H, Li M, Yang Q. 2026.** Machine learning-based prediction
-  of multi-level antimicrobial resistance in *Klebsiella pneumoniae*
-  using whole-genome sequencing data. *International Journal of
-  Antimicrobial Agents* 67(7):107807 (Elsevier).
-  [DOI: 10.1016/j.ijantimicag.2026.107807](https://doi.org/10.1016/j.ijantimicag.2026.107807).
-  Peer-reviewed AMR prediction from WGS — the primary AMR context.
-- **Wang M, Song Z, Liu Q, Tang F, Wang Z, Yang F. 2026.** DeepALM: A
-  Context-Aware Deep Learning Framework for Antimicrobial Peptide
-  Prediction. *Current Bioinformatics* 21.
-  [DOI: 10.2174/0115748936446480260326102931](https://doi.org/10.2174/0115748936446480260326102931).
-  Peer-reviewed AMP classification (TextCNN-BiLSTM-Attention, 91.63%
-  accuracy) — a state-of-the-art method reference.
+- **Drouin A, Giguère S, Déraspe M, Marchand M, Tyers M, Loo VG,
+  Bourgault AM, Laviolette F, Corbeil J. 2016.** Predictive
+  computational phenotyping and biomarker discovery using
+  reference-free genome comparisons. *BMC Genomics* 17(1).
+  [DOI: 10.1186/s12864-016-2889-6](https://doi.org/10.1186/s12864-016-2889-6)
+  (129 citations). The foundational ML-for-AMR paper: k-mer
+  representation + machine learning predicts antibiotic resistance in
+  C. difficile, M. tuberculosis, P. aeruginosa, S. pneumoniae.
+- **Waghu FH, Barai RS, Gurung P, Idicula-Thomas S. 2015.** CAMPR3: a
+  database on sequences, structures and signatures of antimicrobial
+  peptides. *Nucleic Acids Research* 44(D1):D1094-D1097.
+  [DOI: 10.1093/nar/gkv1051](https://doi.org/10.1093/nar/gkv1051)
+  (673 citations). The classic AMP database with built-in ML
+  prediction models — the standard reference for AMP classification.
+- **Waghu FH, Idicula-Thomas S. 2019.** Collection of antimicrobial
+  peptides database and its derivatives: Applications and beyond.
+  *Protein Science* 29(1):36-42.
+  [DOI: 10.1002/pro.3714](https://doi.org/10.1002/pro.3714)
+  (133 citations). CAMP/CAMPSign/ClassAMP — AMP prediction tools and
+  their applications.
 - **Pham HT, Huynh B, Nguyen-Vo TH. 2026.** GenPept-Curated-2025: A
   Benchmark Dataset for Antimicrobial Peptide Prediction with
   Homology-Controlled Partitioning.
