@@ -23,12 +23,17 @@ antimicrobial from sequence alone is a real drug-discovery task.
 
 ## Papers this is based on
 
-- **Witten J, Witten Z. 2019.** Deep learning regression model for
-  antimicrobial peptide design. *bioRxiv*.
-  [DOI: 10.1101/692681](https://doi.org/10.1101/692681)
-  (82 citations). Built GRAMPA: 51,345 peptide entries with measured
-  MICs against *E. coli*, from APD/DADP/DBAASP/DRAMP/PEP_LIFE/YADAMP.
-  Our positives + MIC targets.
+ - **Witten J, Witten Z. 2019.** Deep learning regression model for
+   antimicrobial peptide design. *bioRxiv*.
+   [DOI: 10.1101/692681](https://doi.org/10.1101/692681)
+   (82 citations). Built GRAMPA: 51,345 peptide entries with measured
+   MICs against *E. coli*, from APD/DADP/DBAASP/DRAMP/PEP_LIFE/YADAMP.
+   Our positives + MIC targets. Source databases: APD (Wang 2004,
+   [DOI: 10.1093/nar/gkh025](https://doi.org/10.1093/nar/gkh025)),
+   DRAMP (Fan et al. 2016,
+   [DOI: 10.1038/srep24482](https://doi.org/10.1038/srep24482)),
+   DBAASP (Gogoladze et al. 2014,
+   [DOI: 10.1111/1574-6968.12489](https://doi.org/10.1111/1574-6968.12489)).
 - **Lu P, Li W, Zubair M, Li L, Han G, Chu Y. 2026.** Machine Learning
   Prediction and Experimental Validation of Antimicrobial Peptide
   Activity Differences against Gram-Positive and Gram-Negative
@@ -62,21 +67,27 @@ antimicrobial from sequence alone is a real drug-discovery task.
   Homology-Controlled Partitioning.
   [DOI: 10.64898/2026.04.25.720793](https://doi.org/10.64898/2026.04.25.720793).
   Names homology leakage, negative-set reliability, and length-dependent
-  imbalance as the three evaluation pitfalls. Our homology-controlled
-  evaluation follows its protocol.
-- **Xie P, Yao L, Guan J, Chung CR, Zhao Z, Long F, Sun Z, Lee TY,
-  Chiang YC. 2025.** ConsAMPHemo: A computational framework for
-  predicting hemolysis of antimicrobial peptides based on machine
-  learning approaches. *Protein Science* 34(7).
-  [DOI: 10.1002/pro.70087](https://doi.org/10.1002/pro.70087).
-  Our toxicity classifier uses its data.
+ classifier (ConsAMPHemo S1 data, Xie et al. 2025, Protein Science)
+ uses the same ESM-2 embeddings:
++
++Reference: Xie P, Yao L, Guan J, Chung CR, Zhao Z, Long F, Sun Z,
++Lee TY, Chiang YC. 2025. ConsAMPHemo: A computational framework for
++predicting hemolysis of antimicrobial peptides based on machine
++learning approaches. *Protein Science* 34(7).
++[DOI: 10.1002/pro.70087](https://doi.org/10.1002/pro.70087)
 
 ## Supporting database: DBAASP
 
-**DBAASP** (Database of Antimicrobial Activity and Structure of
-Peptides, https://dbaasp.org) is a manually curated database of
-peptide antimicrobial activity with measured MICs against specific
-target species — including clinically relevant resistant strains:
+ **DBAASP** (Database of Antimicrobial Activity and Structure of
+ Peptides, https://dbaasp.org) is a manually curated database of
+ peptide antimicrobial activity with measured MICs against specific
+ target species — including clinically relevant resistant strains:
+
+Reference: Gogoladze G, Grigolava M, Vishnepolsky B, Chubinidze M,
+Duroux P, Lefranc MP, Pirtskhalava M. 2014. dbaasp: database of
+antimicrobial activity and structure of peptides. *FEMS Microbiology
+Letters* 357(1):63-68.
+[DOI: 10.1111/1574-6968.12489](https://doi.org/10.1111/1574-6968.12489)
 
 - *K. pneumoniae* ATCC BAA-2146 (NDM-1 carbapenemase producer)
 - *K. pneumoniae* NCTC 13443 (KPC carbapenemase producer)
@@ -155,6 +166,11 @@ And on the known-peptide test:
 |---------|---------|------------|
 | GRAMPA disulfide AMP | 0.997 | 1.000 |
 | UniProt AbTIR (non-AMP) | 0.267 | 0.018 |
+
+UniProt (used for non-AMP negatives): The UniProt Consortium. 2017.
+UniProt: the universal protein knowledgebase. *Nucleic Acids
+Research* 45(D1):D158-D169.
+[DOI: 10.1093/nar/gkw1099](https://doi.org/10.1093/nar/gkw1099)
 
 The ESM-2 separation is cleaner — the language model learned
 evolutionary representations the 10 hand-crafted features miss.

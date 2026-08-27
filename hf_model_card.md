@@ -45,9 +45,22 @@ Full pipeline (train, score, generate, evaluate) in the GitHub repo:
 
 - **GRAMPA** (Witten & Witten 2019, bioRxiv): 6,642 unique AMP
   sequences with log10 MIC against E. coli.
+  [DOI: 10.1101/692681](https://doi.org/10.1101/692681). Source
+  databases: APD (Wang 2004,
+  [DOI: 10.1093/nar/gkh025](https://doi.org/10.1093/nar/gkh025)),
+  DRAMP (Fan et al. 2016,
+  [DOI: 10.1038/srep24482](https://doi.org/10.1038/srep24482)),
+  DBAASP (Gogoladze et al. 2014,
+  [DOI: 10.1111/1574-6968.12489](https://doi.org/10.1111/1574-6968.12489)).
 - **ConsAMPHemo** (Xie et al. 2025, Protein Science): 884 peptides,
   hemolytic vs non-hemolytic.
-- **UniProt** (CC-BY-4.0): non-AMP negatives.
+  [DOI: 10.1002/pro.70087](https://doi.org/10.1002/pro.70087).
+- **UniProt** (CC-BY-4.0): non-AMP negatives. The UniProt Consortium
+  2017, *Nucleic Acids Research* 45(D1):D158-D169.
+  [DOI: 10.1093/nar/gkw1099](https://doi.org/10.1093/nar/gkw1099).
+- **DBAASP** (Gogoladze et al. 2014, *FEMS Microbiology Letters*
+  357(1):63-68): clinical-isolate AMP-MIC validation data.
+  [DOI: 10.1111/1574-6968.12489](https://doi.org/10.1111/1574-6968.12489).
 
 ## Honest evaluation
 
