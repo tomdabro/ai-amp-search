@@ -227,7 +227,7 @@ training.
 ## Trained models on Hugging Face
 
 All trained models are published on the Hugging Face Hub:
-**https://huggingface.co/tomekdab/amp-scan-models**
+**https://huggingface.co/tomekdab/ai-amp-models**
 
 | File | What | Size | Verified |
 |------|------|------|----------|
