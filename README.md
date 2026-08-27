@@ -37,12 +37,25 @@ antimicrobial from sequence alone is a real drug-discovery task.
   Random Forest on 8 physicochemical properties → 82% test accuracy,
   validated on 18 synthesized peptides. Our feature-based RF approach
   follows this.
-- **Sevilla-Fortuny J, González-Candelas F, García-González N. 2024.**
-  Improved prediction of antimicrobial resistance in *Klebsiella
-  pneumoniae* using machine learning. *bioRxiv*.
-  [DOI: 10.1101/2024.12.10.627815](https://doi.org/10.1101/2024.12.10.627815).
-  Context: ML beats rule-based methods
-  for hard antibiotics.
+ - **Sevilla-Fortuny J, González-Candelas F, García-González N. 2024.**
+   Improved prediction of antimicrobial resistance in *Klebsiella
+   pneumoniae* using machine learning. *bioRxiv*.
+   [DOI: 10.1101/2024.12.10.627815](https://doi.org/10.1101/2024.12.10.627815).
+   Context: ML beats rule-based methods
+   for hard antibiotics.
+- **Jia X, Zhang J, Chen J, Wang J, Chu X, Yu W, Chen S, Zhang Q,
+  Li Z, Gao H, Li M, Yang Q. 2026.** Machine learning-based prediction
+  of multi-level antimicrobial resistance in *Klebsiella pneumoniae*
+  using whole-genome sequencing data. *International Journal of
+  Antimicrobial Agents* 67(7):107807 (Elsevier).
+  [DOI: 10.1016/j.ijantimicag.2026.107807](https://doi.org/10.1016/j.ijantimicag.2026.107807).
+  Peer-reviewed AMR prediction from WGS — the primary AMR context.
+- **Wang M, Song Z, Liu Q, Tang F, Wang Z, Yang F. 2026.** DeepALM: A
+  Context-Aware Deep Learning Framework for Antimicrobial Peptide
+  Prediction. *Current Bioinformatics* 21.
+  [DOI: 10.2174/0115748936446480260326102931](https://doi.org/10.2174/0115748936446480260326102931).
+  Peer-reviewed AMP classification (TextCNN-BiLSTM-Attention, 91.63%
+  accuracy) — a state-of-the-art method reference.
 - **Pham HT, Huynh B, Nguyen-Vo TH. 2026.** GenPept-Curated-2025: A
   Benchmark Dataset for Antimicrobial Peptide Prediction with
   Homology-Controlled Partitioning.
