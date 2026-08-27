@@ -24,32 +24,37 @@ antimicrobial from sequence alone is a real drug-discovery task.
 ## Papers this is based on
 
 - **Witten J, Witten Z. 2019.** Deep learning regression model for
-  antimicrobial peptide design. *bioRxiv*. DOI: 10.1101/692681
+  antimicrobial peptide design. *bioRxiv*.
+  [DOI: 10.1101/692681](https://doi.org/10.1101/692681)
   (82 citations). Built GRAMPA: 51,345 peptide entries with measured
   MICs against *E. coli*, from APD/DADP/DBAASP/DRAMP/PEP_LIFE/YADAMP.
   Our positives + MIC targets.
 - **Lu P, Li W, Zubair M, Li L, Han G, Chu Y. 2026.** Machine Learning
   Prediction and Experimental Validation of Antimicrobial Peptide
   Activity Differences against Gram-Positive and Gram-Negative
-  Bacteria. *ACS Omega* 11(32):47517-47527. DOI: 10.1021/acsomega.6c01772
+  Bacteria. *ACS Omega* 11(32):47517-47527.
+  [DOI: 10.1021/acsomega.6c01772](https://doi.org/10.1021/acsomega.6c01772)
   Random Forest on 8 physicochemical properties → 82% test accuracy,
   validated on 18 synthesized peptides. Our feature-based RF approach
   follows this.
 - **Sevilla-Fortuny J, González-Candelas F, García-González N. 2024.**
   Improved prediction of antimicrobial resistance in *Klebsiella
   pneumoniae* using machine learning. *bioRxiv*.
-  DOI: 10.1101/2024.12.10.627815. Context: ML beats rule-based methods
+  [DOI: 10.1101/2024.12.10.627815](https://doi.org/10.1101/2024.12.10.627815).
+  Context: ML beats rule-based methods
   for hard antibiotics.
 - **Pham HT, Huynh B, Nguyen-Vo TH. 2026.** GenPept-Curated-2025: A
   Benchmark Dataset for Antimicrobial Peptide Prediction with
-  Homology-Controlled Partitioning. DOI: 10.64898/2026.04.25.720793.
+  Homology-Controlled Partitioning.
+  [DOI: 10.64898/2026.04.25.720793](https://doi.org/10.64898/2026.04.25.720793).
   Names homology leakage, negative-set reliability, and length-dependent
   imbalance as the three evaluation pitfalls. Our homology-controlled
   evaluation follows its protocol.
 - **Xie P, Yao L, Guan J, Chung CR, Zhao Z, Long F, Sun Z, Lee TY,
   Chiang YC. 2025.** ConsAMPHemo: A computational framework for
   predicting hemolysis of antimicrobial peptides based on machine
-  learning approaches. *Protein Science* 34(7). DOI: 10.1002/pro.70087.
+  learning approaches. *Protein Science* 34(7).
+  [DOI: 10.1002/pro.70087](https://doi.org/10.1002/pro.70087).
   Our toxicity classifier uses its data.
 
 ## Supporting database: DBAASP
