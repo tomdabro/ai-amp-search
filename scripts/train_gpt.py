@@ -18,6 +18,7 @@ import argparse
 import csv
 import math
 import time
+from dataclasses import dataclass
 from pathlib import Path
 
 import torch
@@ -25,12 +26,13 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 # --- tiny GPT (nanoGPT-style) ---
+@dataclass
 class GPTConfig:
-    block_size = 64
-    n_layer = 6
-    n_head = 6
-    n_embd = 192
-    dropout = 0.1
+    block_size: int = 64
+    n_layer: int = 6
+    n_head: int = 6
+    n_embd: int = 192
+    dropout: float = 0.1
 
 
 class CausalSelfAttention(nn.Module):
@@ -212,7 +214,8 @@ def main() -> None:
         vl = val_loss()
         if vl < best_val:
             best_val = vl
-            torch.save({"model": model.state_dict(), "config": config,
+            torch.save({"model": model.state_dict(),
+                        "config": vars(config),
                         "stoi": stoi, "itos": itos},
                        args.out / "amp_gpt.pt")
         print(f"epoch {epoch:3d} | train {avg:.4f} | val {vl:.4f} | "

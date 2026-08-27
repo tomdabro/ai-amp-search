@@ -45,8 +45,9 @@ def main() -> None:
     device = "mps" if torch.backends.mps.is_available() else "cpu"
 
     # Load GPT.
-    ckpt = torch.load(args.gpt, map_location=device, weights_only=False)
-    config = ckpt["config"]
+    ckpt = torch.load(args.gpt, map_location=device, weights_only=True)
+    cfg = ckpt["config"]
+    config = cfg if isinstance(cfg, GPTConfig) else GPTConfig(**cfg)
     stoi, itos = ckpt["stoi"], ckpt["itos"]
     model = GPT(config, len(stoi)).to(device)
     model.load_state_dict(ckpt["model"])
