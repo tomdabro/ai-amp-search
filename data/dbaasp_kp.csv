@@ -1,0 +1,661 @@
+peptide_id,name,sequence,target_species,mic,unit,medium
+1,Distinctin,ENREVPPGFTALIKTLRKCKII,Escherichia coli ATCC 25922,14.5,µM,TSB
+1,Distinctin,ENREVPPGFTALIKTLRKCKII,Staphylococcus aureus ATCC 25923,28.0,µM,TSB
+1,Distinctin,ENREVPPGFTALIKTLRKCKII,Pseudomonas aeruginosa ATCC 27853,28.0,µM,TSB
+1,Distinctin,ENREVPPGFTALIKTLRKCKII,Enterococcus faecalis ATCC 29212,14.5,µM,TSB
+255,,LKLLLLKLLL,Staphylococcus aureus FDA 209P,12.5,µg/ml,
+255,,LKLLLLKLLL,Staphylococcus aureus 308A-1,25.0,µg/ml,
+255,,LKLLLLKLLL,Bacillus subtilis PCI 219,25.0,µg/ml,
+255,,LKLLLLKLLL,Shigella flexneri EW-10,25.0,µg/ml,
+255,,LKLLLLKLLL,Klebsiella pneumoniae,100.0,µg/ml,
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa PAO1,31.3,µg/ml,BHIB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa WR5,250.0,µg/ml,BHIB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa PAK,125.0,µg/ml,BHIB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa PA14,62.5,µg/ml,BHIB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa M2,31.3,µg/ml,BHIB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa CP204,7.8,µg/ml,BHIB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa,8.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Escherichia coli UB1005,2.5,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Escherichia coli DC2,1.6,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Salmonella typhimurium C587,4.0,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Salmonella typhimurium C610,1.3,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa H187,8.0,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa H188,5.0,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Staphylococcus aureus ATCC 25923,64.0,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Staphylococcus aureus SAP 0017,64.0,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Staphylococcus epidermidis C621,5.0,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Bacillus subtilis C971,1.6,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Enterococcus faecalis C625,64.0,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Corynebacterium xerosis C875,1.3,µg/ml,LBB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Bacillus subtilis ATCC 6633,32.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Escherichia coli DH5alpha,1.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Escherichia coli ATCC 25922,16.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa ATCC 27853,8.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Staphylococcus aureus ATCC 25923,16.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Bacillus subtilis ATCC 49619,8.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Escherichia coli ATCC 25922,32.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa ATCC 27853,32.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa ATCC 27853,500.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa ATCC 27853,128.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Staphylococcus epidermidis ATCC 12228,4.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Staphylococcus epidermidis ATCC 12228,32.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Staphylococcus epidermidis ATCC 12228,16.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Bacillus subtilis ATCC 6633,8.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Bacillus subtilis ATCC 6633,16.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Bacillus subtilis ATCC 6633,8.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Bacillus subtilis ATCC 6633,128.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Escherichia coli,4.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Pseudomonas aeruginosa,16.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Klebsiella pneumoniae ATCC 700603,4.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Klebsiella pneumoniae,8.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Staphylococcus aureus,128.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Streptococcus pneumoniae,8.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Streptococcus alpha-hemolytic  ,64.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Streptococcus beta-hemolytic,64.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Escherichia coli ATCC 25922,1.0,µg/ml,MHB
+265,"V681 [V13K], Peptide P",KWKSFLKTFKSAKKTVLHTALKAISS,Escherichia coli DH5alpha,2.0,µg/ml,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Bacillus subtilis ATCC 62037,64.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus ATCC 15752,64.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Streptococcus mutans ATCC 25175,128.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli ATCC 27325,128.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas putida ATCC 17426,64.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Salmonella enterica subsp. enterica serovar Enteritidis ATCC 13076,32.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Cryptococcus neoformans ATCC 34881,16.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Cryptococcus neoformans ATCC 34881,128.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Saccharomyces cerevisiae ATCC 44774,32.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Candida albicans ATCC 10231,32.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli D22,15.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli D22,0.5,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Bacillus megaterium MA,10.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Bacillus megaterium MA,5.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus ATCC 6538,40.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus epidermidis ATCC 12228,10.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Micrococcus luteus ATCC 9341,50.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Corynebacterium diphtheriae ATCC 8024,5.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli ATCC 2592,20.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa ATCC 9027,20.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Shigella flexneri ATCC 203,20.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Candida albicans ATCC 36232,5.0,µg/ml,SDB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Bacillus subtilis,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Streptococcus mutans,100.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Streptococcus pneumoniae,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli,100.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Salmonella typhimurium,25.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Serratia marcescens,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas putida,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Candida albicans,25.0,µg/ml,SDB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Cryptococcus neoformans,12.0,µg/ml,SDB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Saccharomyces cerevisiae,25.0,µg/ml,SDB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli,12.5,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli,12.5,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Enterobacter cloacae,25.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Enterobacter cloacae,50.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Shigella flexneri,3.12,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Shigella flexneri,3.12,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Salmonella enterica subsp. enterica serovar Anatum,50.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa,100.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa,200.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Klebsiella oxytoca,50.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Enterococcus faecalis ATCC 29212,400.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Enterococcus faecalis ATCC 29212,400.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus ATCC 29213,25.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus ATCC 29213,50.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli ATCC 25922,12.5,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli ATCC 25922,25.0,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa ATCC 27953,6.25,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa ATCC 27953,6.25,µg/ml,TB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli ATCC 25922,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli ATCC 25922,100.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Klebsiella pneumoniae ATCC 13883,100.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Streptococcus agalactiae ATCC 12386,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Streptococcus agalactiae ATCC 12386,100.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus ATCC 6538,25.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Micrococcus luteus ATCC 9341,50.0,µg/ml,AM3
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Candida albicans ATCC 36232,50.0,µg/ml,RPMI-1640
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Candida albicans ATCC 36232,50.0,µg/ml,RPMI-1640
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Channel Catfish Virus,48.0,µM,
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Paramecium caudatum,10.0,µg/ml, 
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Amoeba proteus,10.0,µg/ml, 
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Euglena gracilis,10.0,µg/ml, 
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli D31,5.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Klebsiella pneumoniae,10.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas putida,10.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus epidermidis,10.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Citrobacter freundii,30.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Enterobacter cloacae,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus,50.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Candida albicans,80.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa,100.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Serratia marcescens,100.0,µg/ml,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Human gastric adenocarcinoma AGS,97.0,µM,
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli KCTC 1682,2.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa KCTC 1637,8.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Salmonella typhimurium KCTC 1926,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Bacillus subtilis KCTC 3068,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Enterococcus faecalis KCTC 2011,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus KCTC 1621,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Salmonella typhimurium CCARM 8003,32.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Salmonella typhimurium CCARM 8007,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Salmonella typhimurium CCARM 8009,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli CCARM 1229,32.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli CCARM 1238,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa CCARM 2002,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa CCARM 2095,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Pseudomonas aeruginosa CCARM 2163,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Acinetobacter baumannii CCARM 12035,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Acinetobacter baumannii CCARM 12036,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Acinetobacter baumannii CCARM 12037,16.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Acinetobacter baumannii CCARM 12005,32.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus CCARM 3089,8.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus CCARM 3108,8.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus CCARM 3126,8.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Human hepatocellular carcinoma J5,128.9,µM, 
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Human hepatocellular carcinoma Huh7,145.2,µM, 
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli DSM 1103,99.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus DSM 1104,99.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus epidermidis DSM 1798,99.0,µM,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Escherichia coli ATCC 25922,8.0,µM,TSB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus ATCC 25923,8.0,µg/ml,MHB
+360,Magainin-2 	 ,GIGKFLHSAKKFGKAFVGEIMNS,Staphylococcus aureus,16.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Bordetella bronchiseptica CUN 11844-99,4.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Pseudomonas aeruginosa CUN 4158-02,16.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Pseudomonas aeruginosa ATCC 27853,16.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Escherichia coli ATCC 25922,16.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Staphylococcus aureus ATCC 25923,16.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Staphylococcus aureus ATCC 43300,16.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Staphylococcus aureus CUN 3792-99,16.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Stenotrophomonas maltophilia CUN 3998-00,32.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Acinetobacter baumannii ATCC 19606,16.0,µg/ml,MHB
+363,,GKKYRRFRWKFKGKWFWFG,Escherichia coli ATCC 25922,32.0,µg/ml,MHA
+363,,GKKYRRFRWKFKGKWFWFG,Pseudomonas aeruginosa CUN 4158-02,32.0,µg/ml,MHA
+363,,GKKYRRFRWKFKGKWFWFG,Bordetella bronchiseptica CUN 11844-99,8.0,µg/ml,MHA
+363,,GKKYRRFRWKFKGKWFWFG,Staphylococcus aureus ATCC 25923,32.0,µg/ml,MHA
+363,,GKKYRRFRWKFKGKWFWFG,Klebsiella pneumoniae,16.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Bordetella bronchiseptica CUN 11844-99,128.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Pseudomonas aeruginosa CUN 4158-02,32.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Pseudomonas aeruginosa ATCC 27853,16.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Escherichia coli ATCC 25922,16.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Staphylococcus aureus ATCC 25923,8.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Staphylococcus aureus ATCC 43300,8.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Staphylococcus aureus CUN 3792-99,8.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Stenotrophomonas maltophilia CUN 3998-00,32.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Acinetobacter baumannii ATCC 19606,16.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Escherichia coli ATCC 25922,64.0,µg/ml,MHA
+367,,GRRYKKFRWKFKGRWFWFG,Escherichia coli ESBL ,16.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Pseudomonas aeruginosa CUN 4158-02,64.0,µg/ml,MHA
+367,,GRRYKKFRWKFKGRWFWFG,Bordetella bronchiseptica CUN 11844-99,16.0,µg/ml,MHA
+367,,GRRYKKFRWKFKGRWFWFG,Staphylococcus aureus ATCC 25923,64.0,µg/ml,MHA
+367,,GRRYKKFRWKFKGRWFWFG,Staphylococcus aureus ATCC 43300,8.0,µg/ml,MHA
+367,,GRRYKKFRWKFKGRWFWFG,Vibrio cholerae CUN 09,16.0,µg/ml,MHB
+367,,GRRYKKFRWKFKGRWFWFG,Vibrio cholerae CUN 09,16.0,µg/ml,MHA
+367,,GRRYKKFRWKFKGRWFWFG,Klebsiella pneumoniae,32.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus ATCC 25923,8.0,µg/ml,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus SAP 0017,8.0,µg/ml,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus haemolyticus,2.0,µg/ml,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus epidermidis,4.0,µg/ml,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Listeria monocytogenes NCTC 7973,4.0,µg/ml,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Streptococcus pyogenes ATCC 19615,4.0,µg/ml,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Corynebacterium xerosis,0.5,µg/ml,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 25922,1.8,µM,TSB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa ATCC 27853,2.4,µM,TSB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Cryptococcus neoformans ATCC 66031,3.6,µM,YEPD
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli KCTC 1682,20.0,µg/ml,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa KCTC 1637,40.0,µg/ml,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Salmonella typhimurium KCTC 1926,20.0,µg/ml,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Bacillus subtilis KCTC 3068,10.0,µg/ml,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus epidermidis KCTC 1917,20.0,µg/ml,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 25922,10.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus ATCC 29213,1.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus CCARM 3696,16.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Bacillus subtilis KCTC 2213,2.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Micrococcus luteus KCTC 9341,4.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Enterococcus faecium CCARM 5028,8.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Listeria monocytogenes KCTC 19111,64.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa CCARM 2161,64.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli KCTC 1039,8.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Klebsiella oxytoca KCTC 1686,16.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Citrobacter freundii KCTC 2359,8.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Salmonella enterica subsp. enterica KCTC 2930,8.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa H1001,38.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Leishmania donovani,3.5e-05,µM,
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus CCARM 3001,8.0,µM,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus CCARM 3543,8.0,µM,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa CCARM 2095,32.0,µM,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa CCARM 2109,32.0,µM,PB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus KCTC 1621,8.0,µg/ml,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Candida albicans KCTC 7965,16.0,µg/ml,YMM
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli W160-37,5.0,µg/ml,TSA
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,HIV-1,60.0,µM,
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,HIV-1,57.0,µM,
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 11775,32.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa ATCC 25668,16.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Bacillus subtilis ATCC 6633,32.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus ATCC 9144,16.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Acinetobacter sp.,64.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli,8.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus ATCC 25923,3.6,µM,TSB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli DH5alpha,4.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Salmonella typhimurium,8.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Klebsiella pneumoniae,10.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa,10.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 25922,31.25,µg/ml,CAMHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus ATCC 25923,31.25,µg/ml,CAMHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus,31.25,µg/ml,CAMHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa ATCC 15442,31.25,µg/ml,CAMHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Mycobacterium avium,128.0,µg/ml,M7H9B
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus ATCC 29213,16.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 25922,32.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa PAO1 H103,32.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 25922,2.5,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 25922,7.0,µM,DMEM
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 25922,30.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 11775,6.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ATCC 35218,10.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli ML-35p,4.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028,8.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Salmonella enterica subsp. enterica serovar Typhi Vi+,3.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Salmonella enterica subsp. enterica serovar Abony NCTC 6017,4.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Klebsiella pneumoniae ATCC 13883,2.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Klebsiella pneumoniae ATCC 700603,8.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa ATCC 27853,5.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus aureus ATCC 33592,4.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus epidermidis MTCC 435,3.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Staphylococcus saprophyticus MTCC 6155,4.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Bacillus subtilis MTCC 121,3.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Micrococcus luteus MTCC 166,2.5,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Mycobacterium smegmatis mc2-155,5.0,µM,LBB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Murine macrophage cells RAW 264.7,35.0,µM, 
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Escherichia coli HB101,16.0,µg/ml,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Human breast adenocarcinoma MCF-7,64.0,µg/ml, 
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Human colon adenocarcinoma SW480,345.0,µg/ml, 
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Human melanoma BMKC,200.0,µg/ml, 
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Human lung carcinoma H1299,270.0,µg/ml, 
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Human cervical carcinoma HeLa S3,345.0,µg/ml, 
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Human prostate adenocarcinoma PC-3,290.0,µg/ml, 
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa PAO1,8.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa 910,32.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Pseudomonas aeruginosa 919,32.0,µM,MHB
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Transmissible gastroenteritis coronavirus (TGEV/PCoV),0.98,µg/ml,
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Transmissible gastroenteritis coronavirus (TGEV/PCoV),3.91,µg/ml,
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Transmissible gastroenteritis coronavirus (TGEV/PCoV),15.63,µg/ml,
+491,"Cathelicidin-4, Indolicidin",ILPWKWPWWPWRR,Transmissible gastroenteritis coronavirus (TGEV/PCoV),62.5,µg/ml,
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Staphylococcus aureus ATCC 25923,4.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Staphylococcus aureus SAP 0017,4.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Staphylococcus haemolyticus,2.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Staphylococcus haemolyticus,1.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Staphylococcus epidermidis,2.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Enterococcus faecalis ATCC 29212,8.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Listeria monocytogenes NCTC 7973,1.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Streptococcus pyogenes ATCC 19615,1.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Corynebacterium xerosis,1.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Escherichia coli,8.0,µg/ml,LBB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Escherichia coli DH5alpha,45.0,µM,MHB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Salmonella typhimurium,50.0,µM,MHB
+493,"Cathelicidin-4/Indolicidin [P3A][P7A][P10A], CP10A",ILAWKWAWWAWRR,Klebsiella pneumoniae,50.0,µM,MHB
+529,"Bombinin-like peptide 1, BLP-1",GIGASILSAGKSALKGLAKGLAEHFAN,Neisseria meningitidis 15240(A),20.0,µg/ml,GCA
+529,"Bombinin-like peptide 1, BLP-1",GIGASILSAGKSALKGLAKGLAEHFAN,Neisseria meningitidis 126E(C),20.0,µg/ml,GCA
+529,"Bombinin-like peptide 1, BLP-1",GIGASILSAGKSALKGLAKGLAEHFAN,Neisseria gonorrhoeae F62,20.0,µg/ml,GCA
+529,"Bombinin-like peptide 1, BLP-1",GIGASILSAGKSALKGLAKGLAEHFAN,Neisseria lactamica,20.0,µg/ml,GCA
+529,"Bombinin-like peptide 1, BLP-1",GIGASILSAGKSALKGLAKGLAEHFAN,Neisseria cinerea,20.0,µg/ml,GCA
+530,"Bombinin-like peptide 2, BLP-2",GIGSAILSAGKSALKGLAKGLAEHFAN,Neisseria meningitidis 118V(C),20.0,µg/ml,GCA
+530,"Bombinin-like peptide 2, BLP-2",GIGSAILSAGKSALKGLAKGLAEHFAN,Neisseria meningitidis 15240(A),20.0,µg/ml,GCA
+530,"Bombinin-like peptide 2, BLP-2",GIGSAILSAGKSALKGLAKGLAEHFAN,Neisseria meningitidis 126E(C),20.0,µg/ml,GCA
+530,"Bombinin-like peptide 2, BLP-2",GIGSAILSAGKSALKGLAKGLAEHFAN,Neisseria gonorrhoeae F62,20.0,µg/ml,GCA
+530,"Bombinin-like peptide 2, BLP-2",GIGSAILSAGKSALKGLAKGLAEHFAN,Neisseria lactamica,20.0,µg/ml,GCA
+530,"Bombinin-like peptide 2, BLP-2",GIGSAILSAGKSALKGLAKGLAEHFAN,Neisseria cinerea,20.0,µg/ml,GCA
+534,"Bombinin-like peptide 3, BLP-3",GIGAAILSAGKSALKGLAKGLAEHF,Neisseria meningitidis 118V(C),20.0,µg/ml,GCA
+534,"Bombinin-like peptide 3, BLP-3",GIGAAILSAGKSALKGLAKGLAEHF,Neisseria meningitidis 15240(A),20.0,µg/ml,GCA
+534,"Bombinin-like peptide 3, BLP-3",GIGAAILSAGKSALKGLAKGLAEHF,Neisseria meningitidis 126E(C),20.0,µg/ml,GCA
+534,"Bombinin-like peptide 3, BLP-3",GIGAAILSAGKSALKGLAKGLAEHF,Neisseria gonorrhoeae F62,20.0,µg/ml,GCA
+534,"Bombinin-like peptide 3, BLP-3",GIGAAILSAGKSALKGLAKGLAEHF,Neisseria lactamica,20.0,µg/ml,GCA
+534,"Bombinin-like peptide 3, BLP-3",GIGAAILSAGKSALKGLAKGLAEHF,Neisseria cinerea,20.0,µg/ml,GCA
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Candida albicans ATCC 10231,3.5,µM,SDA
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Escherichia coli BL21AI,4.0,µg/ml,TSB
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Micrococcus luteus ATCC 10240,0.5,µg/ml,TSB
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Salmonella enterica subsp. enterica serovar Typhimurium ATCC 700408,8.0,µg/ml,MHB
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Escherichia coli DSM 10233,4.0,µg/ml,TSB
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Klebsiella pneumoniae DSM 681,32.0,µg/ml,TSB
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Plasmodium falciparum 3D7,50.0,µM, 
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Micrococcus luteus DSM 1790,0.5,µg/ml,TSB
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Escherichia coli BW25113,128.0,µg/ml,CAMHB
+564,"Drosocin, Drosocin-1",GKPRPYSPRPTSHPRPIRV,Escherichia coli BL21(DE3) plysS,8.0,µg/ml,CAMHB
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Escherichia coli D21,0.19,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Escherichia coli D31,0.21,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Serratia marcescens Db11,4.2,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Serratia marcescens Db1108,2.5,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Serratia marcescens Db1121,4.4,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Serratia marcescens 122,3.2,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Pseudomonas aeruginosa OT97,4.8,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Xenorhabdus nematophila Xn21,1.4,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Bacillus megaterium Bm11,0.7,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Bacillus subtilis Bs11,61.0,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Enterococcus faecalis AD-4,15.0,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Enterococcus faecalis DS16,74.0,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Micrococcus luteus Ml11,4.6,µM,LBA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Staphylococcus aureus ATCC 25923,32.0,µg/ml,MHB
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Staphylococcus aureus,64.0,µg/ml,MHB
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Escherichia coli ATCC 25922,0.5,µM,MHB
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Escherichia coli ATCC 25922,1.0,µM,MHA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Staphylococcus aureus ATCC 6538P,1.0,µM,MHB
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Staphylococcus aureus ATCC 6538P,2.0,µM,MHA
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Candida albicans ATCC 10231,16.0,µM,MHB
+571,"Cecropin-A, Cecropin-C",KWKLFKKIEKVGQNIRDGIIKAGPAVAVVGQATQIAK,Candida albicans ATCC 10231,32.0,µM,MHA
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Staphylococcus aureus B38302,25.0,µM,2xty
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Plasmodium falciparum H,2.2,µM,
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Plasmodium falciparum NF54,0.27,µM,
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Plasmodium falciparum Ibrahim,2.0,µM,
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Rabies virus (RABV),5.1,µM,
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,HSV-2,2.1,µM, 
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,HSV-2 Roi2,6.0,µM, 
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,HIV-1,2.0,µM,
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Escherichia coli,121.15,µg/ml,BHIB
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Escherichia coli,295.97,µg/ml,BHIB
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Escherichia coli,181.62,µg/ml,BHIB
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Escherichia coli,380.82,µg/ml,BHIB
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Klebsiella pneumoniae,158.5,µg/ml,BHIB
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Klebsiella pneumoniae,343.68,µg/ml,BHIB
+606,Dermaseptin S4,ALWMTLLKKVLKAAAKAALNAVLVGANA,Human colon adenocarcinoma SW620,256.0,µg/ml,
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Bacillus subtilis,6.3,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Micrococcus luteus,6.3,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Staphylococcus aureus,3.1,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Staphylococcus epidermidis,12.5,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Escherichia coli,12.5,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Shigella dysenteriae,50.0,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Salmonella typhimurium,100.0,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Klebsiella pneumoniae,25.0,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Pseudomonas aeruginosa,200.0,µg/ml,LBB
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human renal carcinoma A498,138.06,µg/ml, 
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human lung carcinoma A549,145.72,µg/ml, 
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human colon adenocarcinoma HCT 116,113.31,µg/ml, 
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human breast adenocarcinoma MCF-7,183.74,µg/ml, 
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human gastric cancer MKN 45,34.96,µg/ml, 
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human liver carcinoma NCI-H630,41.85,µg/ml, 
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human prostate adenocarcinoma PC-3,43.64,µg/ml, 
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human skin melanoma SK-MEL-2,47.47,µg/ml, 
+626,Gaegurin-5,FLGALFKVASKVLPSVKCAITKKC,Human ovarian adenocarcinoma SK-OV-3,38.28,µg/ml, 
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Bacillus subtilis,12.5,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Micrococcus luteus,6.3,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Staphylococcus aureus,3.1,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Staphylococcus epidermidis,3.1,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Escherichia coli,25.0,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Shigella dysenteriae,25.0,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Salmonella typhimurium,100.0,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Klebsiella pneumoniae,25.0,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Pseudomonas aeruginosa,100.0,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Staphylococcus aureus ATCC 6538,100.0,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Staphylococcus epidermidis ATCC 12228,250.0,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Micrococcus luteus ATCC 4698,50.0,µg/ml,LBB
+634,Gaegurin 5 (1-13),FLGALFKVASKVL,Escherichia coli DH5alpha,270.0,µg/ml,LBB
+635,Gaegurin 5 (3-13),GALFKVASKVL,Staphylococcus aureus,200.0,µg/ml,LBB
+635,Gaegurin 5 (3-13),GALFKVASKVL,Escherichia coli,200.0,µg/ml,LBB
+635,Gaegurin 5 (3-13),GALFKVASKVL,Shigella dysenteriae,200.0,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Bacillus subtilis,12.5,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Micrococcus luteus,3.1,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Staphylococcus aureus,3.1,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Staphylococcus epidermidis,3.1,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Escherichia coli,6.3,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Shigella dysenteriae,6.3,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Salmonella typhimurium,12.5,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Klebsiella pneumoniae,3.1,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Proteus mirabilis,200.0,µg/ml,LBB
+640,Gaegurin 5 (1-13)[G3K],FLKALFKVASKVL,Pseudomonas aeruginosa,25.0,µg/ml,LBB
+641,Gaegurin 5 (1-13)[G3K][S10L],FLKALFKVALKVL,Bacillus subtilis,25.0,µg/ml,LBB
+641,Gaegurin 5 (1-13)[G3K][S10L],FLKALFKVALKVL,Micrococcus luteus,6.3,µg/ml,LBB
+641,Gaegurin 5 (1-13)[G3K][S10L],FLKALFKVALKVL,Staphylococcus aureus,3.1,µg/ml,LBB
+641,Gaegurin 5 (1-13)[G3K][S10L],FLKALFKVALKVL,Staphylococcus epidermidis,3.1,µg/ml,LBB
+641,Gaegurin 5 (1-13)[G3K][S10L],FLKALFKVALKVL,Escherichia coli,50.0,µg/ml,LBB
+641,Gaegurin 5 (1-13)[G3K][S10L],FLKALFKVALKVL,Shigella dysenteriae,50.0,µg/ml,LBB
+641,Gaegurin 5 (1-13)[G3K][S10L],FLKALFKVALKVL,Klebsiella pneumoniae,100.0,µg/ml,LBB
+642,Gaegurin 5 (1-13)[F1A],ALGALFKVASKVL,Bacillus subtilis,25.0,µg/ml,LBB
+642,Gaegurin 5 (1-13)[F1A],ALGALFKVASKVL,Micrococcus luteus,200.0,µg/ml,LBB
+642,Gaegurin 5 (1-13)[F1A],ALGALFKVASKVL,Staphylococcus aureus,12.5,µg/ml,LBB
+642,Gaegurin 5 (1-13)[F1A],ALGALFKVASKVL,Staphylococcus epidermidis,50.0,µg/ml,LBB
+642,Gaegurin 5 (1-13)[F1A],ALGALFKVASKVL,Escherichia coli,50.0,µg/ml,LBB
+642,Gaegurin 5 (1-13)[F1A],ALGALFKVASKVL,Shigella dysenteriae,200.0,µg/ml,LBB
+642,Gaegurin 5 (1-13)[F1A],ALGALFKVASKVL,Klebsiella pneumoniae,100.0,µg/ml,LBB
+642,Gaegurin 5 (1-13)[F1A],ALGALFKVASKVL,Pseudomonas aeruginosa,200.0,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Bacillus subtilis,6.3,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Micrococcus luteus,1.6,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Staphylococcus aureus,1.6,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Staphylococcus epidermidis,3.1,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Escherichia coli,12.5,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Shigella dysenteriae,25.0,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Salmonella typhimurium,100.0,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Klebsiella pneumoniae,25.0,µg/ml,LBB
+643,Gaegurin 5 (1-13)[F1W],WLGALFKVASKVL,Pseudomonas aeruginosa,100.0,µg/ml,LBB
+644,Gaegurin 5 (1-11)[F1W],WLGALFKVASK,Bacillus subtilis,100.0,µg/ml,LBB
+644,Gaegurin 5 (1-11)[F1W],WLGALFKVASK,Micrococcus luteus,100.0,µg/ml,LBB
+644,Gaegurin 5 (1-11)[F1W],WLGALFKVASK,Staphylococcus aureus,100.0,µg/ml,LBB
+644,Gaegurin 5 (1-11)[F1W],WLGALFKVASK,Staphylococcus epidermidis,200.0,µg/ml,LBB
+644,Gaegurin 5 (1-11)[F1W],WLGALFKVASK,Escherichia coli,200.0,µg/ml,LBB
+645,Gaegurin 5 (1-11)[L2W],FWGALFKVASK,Bacillus subtilis,50.0,µg/ml,LBB
+645,Gaegurin 5 (1-11)[L2W],FWGALFKVASK,Micrococcus luteus,100.0,µg/ml,LBB
+645,Gaegurin 5 (1-11)[L2W],FWGALFKVASK,Staphylococcus aureus,25.0,µg/ml,LBB
+645,Gaegurin 5 (1-11)[L2W],FWGALFKVASK,Staphylococcus epidermidis,100.0,µg/ml,LBB
+645,Gaegurin 5 (1-11)[L2W],FWGALFKVASK,Escherichia coli,100.0,µg/ml,LBB
+645,Gaegurin 5 (1-11)[L2W],FWGALFKVASK,Shigella dysenteriae,200.0,µg/ml,LBB
+645,Gaegurin 5 (1-11)[L2W],FWGALFKVASK,Klebsiella pneumoniae,100.0,µg/ml,LBB
+646,Gaegurin 5 (1-11)[G3W],FLWALFKVASK,Bacillus subtilis,12.5,µg/ml,LBB
+646,Gaegurin 5 (1-11)[G3W],FLWALFKVASK,Micrococcus luteus,50.0,µg/ml,LBB
+646,Gaegurin 5 (1-11)[G3W],FLWALFKVASK,Staphylococcus aureus,12.5,µg/ml,LBB
+646,Gaegurin 5 (1-11)[G3W],FLWALFKVASK,Staphylococcus epidermidis,25.0,µg/ml,LBB
+646,Gaegurin 5 (1-11)[G3W],FLWALFKVASK,Escherichia coli,100.0,µg/ml,LBB
+646,Gaegurin 5 (1-11)[G3W],FLWALFKVASK,Klebsiella pneumoniae,100.0,µg/ml,LBB
+653,Gaegurin 5 (1-11)[F6W],FLGALWKVASK,Bacillus subtilis,200.0,µg/ml,LBB
+653,Gaegurin 5 (1-11)[F6W],FLGALWKVASK,Staphylococcus aureus,100.0,µg/ml,LBB
+653,Gaegurin 5 (1-11)[F6W],FLGALWKVASK,Escherichia coli,200.0,µg/ml,LBB
+653,Gaegurin 5 (1-11)[F6W],FLGALWKVASK,Klebsiella pneumoniae,100.0,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Bacillus subtilis,12.5,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Micrococcus luteus,50.0,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Staphylococcus aureus,12.5,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Staphylococcus epidermidis,25.0,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Escherichia coli,25.0,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Shigella dysenteriae,25.0,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Salmonella typhimurium,100.0,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Klebsiella pneumoniae,12.5,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Pseudomonas aeruginosa,200.0,µg/ml,LBB
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Human renal carcinoma A498,214.33,µg/ml,
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Human lung carcinoma A549,418.15,µg/ml,
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Human colon adenocarcinoma HCT 116,144.37,µg/ml,
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Human breast adenocarcinoma MCF-7,198.87,µg/ml,
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Human gastric cancer MKN 45,142.72,µg/ml,
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Human liver carcinoma NCI-H630,129.54,µg/ml,
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Human prostate adenocarcinoma PC-3,174.15,µg/ml,
+655,Gaegurin 5 (1-11)[V8W],FLGALFKWASK,Human ovarian adenocarcinoma SK-OV-3,150.45,µg/ml, 
+663,Gaegurin 5 (1-11)[S10W],FLGALFKVAWK,Bacillus subtilis,25.0,µg/ml,LBB
+663,Gaegurin 5 (1-11)[S10W],FLGALFKVAWK,Micrococcus luteus,25.0,µg/ml,LBB
+663,Gaegurin 5 (1-11)[S10W],FLGALFKVAWK,Staphylococcus aureus,12.5,µg/ml,LBB
+663,Gaegurin 5 (1-11)[S10W],FLGALFKVAWK,Staphylococcus epidermidis,50.0,µg/ml,LBB
+663,Gaegurin 5 (1-11)[S10W],FLGALFKVAWK,Escherichia coli,100.0,µg/ml,LBB
+663,Gaegurin 5 (1-11)[S10W],FLGALFKVAWK,Shigella dysenteriae,100.0,µg/ml,LBB
+663,Gaegurin 5 (1-11)[S10W],FLGALFKVAWK,Salmonella typhimurium,200.0,µg/ml,LBB
+663,Gaegurin 5 (1-11)[S10W],FLGALFKVAWK,Klebsiella pneumoniae,50.0,µg/ml,LBB
+665,Gaegurin 5 (1-11)[A4L],FLGLLFKVASK,Bacillus subtilis,50.0,µg/ml,LBB
+665,Gaegurin 5 (1-11)[A4L],FLGLLFKVASK,Micrococcus luteus,12.5,µg/ml,LBB
+665,Gaegurin 5 (1-11)[A4L],FLGLLFKVASK,Staphylococcus aureus,25.0,µg/ml,LBB
+665,Gaegurin 5 (1-11)[A4L],FLGLLFKVASK,Staphylococcus epidermidis,50.0,µg/ml,LBB
+665,Gaegurin 5 (1-11)[A4L],FLGLLFKVASK,Escherichia coli,200.0,µg/ml,LBB
+665,Gaegurin 5 (1-11)[A4L],FLGLLFKVASK,Shigella dysenteriae,200.0,µg/ml,LBB
+665,Gaegurin 5 (1-11)[A4L],FLGLLFKVASK,Klebsiella pneumoniae,100.0,µg/ml,LBB
+666,Gaegurin 5 (1-11)[A4K]	,FLGKLFKVASK,Bacillus subtilis,100.0,µg/ml,LBB
+666,Gaegurin 5 (1-11)[A4K]	,FLGKLFKVASK,Micrococcus luteus,200.0,µg/ml,LBB
+666,Gaegurin 5 (1-11)[A4K]	,FLGKLFKVASK,Staphylococcus aureus,200.0,µg/ml,LBB
+666,Gaegurin 5 (1-11)[A4K]	,FLGKLFKVASK,Escherichia coli,200.0,µg/ml,LBB
+666,Gaegurin 5 (1-11)[A4K]	,FLGKLFKVASK,Shigella dysenteriae,200.0,µg/ml,LBB
+666,Gaegurin 5 (1-11)[A4K]	,FLGKLFKVASK,Klebsiella pneumoniae,200.0,µg/ml,LBB
+666,Gaegurin 5 (1-11)[A4K]	,FLGKLFKVASK,Pseudomonas aeruginosa,200.0,µg/ml,LBB
+667,Gaegurin 5 (1-11)[A4F],FLGFLFKVASK,Bacillus subtilis,12.5,µg/ml,LBB
+667,Gaegurin 5 (1-11)[A4F],FLGFLFKVASK,Micrococcus luteus,12.5,µg/ml,LBB
+667,Gaegurin 5 (1-11)[A4F],FLGFLFKVASK,Staphylococcus aureus,12.5,µg/ml,LBB
+667,Gaegurin 5 (1-11)[A4F],FLGFLFKVASK,Staphylococcus epidermidis,50.0,µg/ml,LBB
+667,Gaegurin 5 (1-11)[A4F],FLGFLFKVASK,Escherichia coli,100.0,µg/ml,LBB
+667,Gaegurin 5 (1-11)[A4F],FLGFLFKVASK,Shigella dysenteriae,100.0,µg/ml,LBB
+667,Gaegurin 5 (1-11)[A4F],FLGFLFKVASK,Klebsiella pneumoniae,100.0,µg/ml,LBB
+668,Gaegurin 5 (1-11)[V8L],FLGALFKLASK,Bacillus subtilis,25.0,µg/ml,LBB
+668,Gaegurin 5 (1-11)[V8L],FLGALFKLASK,Micrococcus luteus,12.5,µg/ml,LBB
+668,Gaegurin 5 (1-11)[V8L],FLGALFKLASK,Staphylococcus aureus,25.0,µg/ml,LBB
+668,Gaegurin 5 (1-11)[V8L],FLGALFKLASK,Staphylococcus epidermidis,100.0,µg/ml,LBB
+668,Gaegurin 5 (1-11)[V8L],FLGALFKLASK,Escherichia coli,100.0,µg/ml,LBB
+668,Gaegurin 5 (1-11)[V8L],FLGALFKLASK,Shigella dysenteriae,100.0,µg/ml,LBB
+668,Gaegurin 5 (1-11)[V8L],FLGALFKLASK,Klebsiella pneumoniae,200.0,µg/ml,LBB
+668,Gaegurin 5 (1-11)[V8L],FLGALFKLASK,Pseudomonas aeruginosa,200.0,µg/ml,LBB
+669,Gaegurin 5 (1-11)[V8K],FLGALFKKASK,Bacillus subtilis,100.0,µg/ml,LBB
+669,Gaegurin 5 (1-11)[V8K],FLGALFKKASK,Micrococcus luteus,12.5,µg/ml,LBB
+669,Gaegurin 5 (1-11)[V8K],FLGALFKKASK,Staphylococcus aureus,200.0,µg/ml,LBB
+669,Gaegurin 5 (1-11)[V8K],FLGALFKKASK,Shigella dysenteriae,200.0,µg/ml,LBB
+670,Gaegurin 5 (1-11)[V8F],FLGALFKFASK,Bacillus subtilis,25.0,µg/ml,LBB
+670,Gaegurin 5 (1-11)[V8F],FLGALFKFASK,Micrococcus luteus,25.0,µg/ml,LBB
+670,Gaegurin 5 (1-11)[V8F],FLGALFKFASK,Staphylococcus aureus,50.0,µg/ml,LBB
+670,Gaegurin 5 (1-11)[V8F],FLGALFKFASK,Staphylococcus epidermidis,100.0,µg/ml,LBB
+670,Gaegurin 5 (1-11)[V8F],FLGALFKFASK,Escherichia coli,100.0,µg/ml,LBB
+670,Gaegurin 5 (1-11)[V8F],FLGALFKFASK,Shigella dysenteriae,100.0,µg/ml,LBB
+670,Gaegurin 5 (1-11)[V8F],FLGALFKFASK,Klebsiella pneumoniae,100.0,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Bacillus subtilis,3.2,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Micrococcus luteus,6.3,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Staphylococcus aureus,3.2,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Staphylococcus epidermidis,6.3,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Escherichia coli,12.5,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Shigella dysenteriae,6.3,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Salmonella typhimurium,50.0,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Klebsiella pneumoniae,12.5,µg/ml,LBB
+671,Gaegurin 5 (1-11)[A4W][V8W],FLGWLFKWASK,Pseudomonas aeruginosa,50.0,µg/ml,LBB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Leishmania amazonensis MPRO/BR/72/M 1841-LV-79,2.5,µM,
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Escherichia coli ATCC 25922,16.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Escherichia coli ATCC 700926,8.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Escherichia coli MB4902,4.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Klebsiella pneumoniae ATCC 13883,16.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Klebsiella pneumoniae ATCC 700603,64.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Klebsiella pneumoniae ATCC BAA-2146,32.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Acinetobacter baumannii ATCC 19606,16.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Pseudomonas aeruginosa ATCC 27853,16.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Bacillus subtilis ATCC 6051,2.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Staphylococcus aureus ATCC 43300,128.0,µg/ml,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Candida albicans ATCC 90028,16.0,µg/ml,YEPD
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Cryptococcus neoformans ATCC 208821,2.0,µg/ml,YEPD
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Staphylococcus aureus ATCC 25923,32.0,µM,MHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Enterococcus faecalis ATCC 51299,28.0,µM,CAMHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Enterococcus faecalis,7.0,µM,CAMHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Bacillus subtilis ATCC 6633,0.875,µM,CAMHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Staphylococcus epidermidis,14.0,µM,CAMHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Escherichia coli ATCC 25922,14.0,µM,CAMHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Klebsiella pneumoniae ATCC 13883,14.0,µM,CAMHB
+814,Gomesin,XCRRLCYKQRCVTYCRGR,Human skin melanoma SK-Mel-28,50.0,µg/ml, 
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Escherichia coli ATCC 25922,19.5,µg/ml,LBB
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Staphylococcus aureus ATCC 2592,19.5,µg/ml,LBB
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Pseudomonas aeruginosa CMCCB 10104,19.5,µg/ml,LBB
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Bacillus megaterium,19.5,µg/ml,LBB
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Shigella dysenteriae,2.7,µg/ml,LBB
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Klebsiella pneumoniae,9.0,µg/ml,LBB
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Candida albicans ATCC 2002,3.0,µg/ml,YEPD
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,HIV-1,21.4,µg/ml,
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Human T-cell leukemia C8166,15.3,µg/ml,
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Human lymphoblastic leukemia Molt-4,24.3,µg/ml,
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Human bladder cancer BIU-87,20.5,µg/ml,
+832,Maximin-1,GIGTKILGGVKTALKGALKELASTYAN,Human bladder carcinoma T24,35.4,µg/ml,
+834,Maximin-2,GIGTKILGGVKTALKGALKELASTYVN,Escherichia coli ATCC 25922,19.5,µg/ml,LBB
+834,Maximin-2,GIGTKILGGVKTALKGALKELASTYVN,Staphylococcus aureus ATCC 2592,19.5,µg/ml,LBB
+834,Maximin-2,GIGTKILGGVKTALKGALKELASTYVN,Pseudomonas aeruginosa CMCCB 10104,19.5,µg/ml,LBB
+834,Maximin-2,GIGTKILGGVKTALKGALKELASTYVN,Bacillus megaterium,19.5,µg/ml,LBB
+834,Maximin-2,GIGTKILGGVKTALKGALKELASTYVN,Shigella dysenteriae,2.7,µg/ml,LBB
+834,Maximin-2,GIGTKILGGVKTALKGALKELASTYVN,Klebsiella pneumoniae,9.0,µg/ml,LBB
+834,Maximin-2,GIGTKILGGVKTALKGALKELASTYVN,Candida albicans ATCC 2002,3.0,µg/ml,YEPD
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Escherichia coli ATCC 25922,0.9,µg/ml,LBB
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Staphylococcus aureus ATCC 2592,3.1,µg/ml,LBB
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Pseudomonas aeruginosa CMCCB 10104,1.5,µg/ml,LBB
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Bacillus megaterium,0.9,µg/ml,LBB
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Shigella dysenteriae,0.9,µg/ml,LBB
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Klebsiella pneumoniae,3.1,µg/ml,LBB
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Candida albicans ATCC 2002,15.0,µg/ml,YEPD
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,HIV-1,1.5,µg/ml,
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Human T-cell leukemia C8166,11.4,µg/ml,
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Human lymphoblastic leukemia Molt-4,25.2,µg/ml,
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Human bladder cancer BIU-87,28.0,µg/ml,
+835,Maximin 3 ,GIGGKILSGLKTALKGAAKELASTYLH,Human bladder carcinoma T24,18.0,µg/ml,
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Escherichia coli ATCC 25922,2.7,µg/ml,LBB
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Staphylococcus aureus ATCC 2592,2.7,µg/ml,LBB
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Pseudomonas aeruginosa CMCCB 10104,2.7,µg/ml,LBB
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Bacillus megaterium,1.5,µg/ml,LBB
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Shigella dysenteriae,2.7,µg/ml,LBB
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Klebsiella pneumoniae,15.0,µg/ml,LBB
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Candida albicans ATCC 2002,15.0,µg/ml,YEPD
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,HIV-1,21.9,µg/ml,
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Human T-cell leukemia C8166,24.2,µg/ml,
+841,Maximin 4,GIGGVLLSAGKAALKGLAKVLAEKYAN,Human lymphoblastic leukemia Molt-4,35.4,µg/ml,
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Staphylococcus aureus ATCC 2592,3.6,µg/ml,LBB
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Pseudomonas aeruginosa CMCCB 10104,7.2,µg/ml,LBB
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Bacillus megaterium,12.0,µg/ml,LBB
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Shigella dysenteriae,12.0,µg/ml,LBB
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Klebsiella pneumoniae,3.6,µg/ml,LBB
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Candida albicans ATCC 2002,1.2,µg/ml,YEPD
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Aspergillus flavus IFFI 4015,12.0,µg/ml,YEPD
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Penicillium urticae IFFI 2001,12.0,µg/ml,YEPD
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,HIV-1,39.8,µg/ml,
+843,Maximin 5,SIGAKILGGVKTFFKGALKELASTYLQ,Human T-cell leukemia C8166,34.4,µg/ml,
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli HB101,0.64,µM,NB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Salmonella typhimurium,1.3,µM,NB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Bacillus subtilis,10.4,µM,NB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli ATCC 25922,2.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Bacillus subtilis ATCC 21332,4.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Bacillus subtilis,10.0,µM,
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae,50.0,µM,
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Citrobacter freundii,6.0,µM,
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli JM109,1.0,µM,
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli TG1,2.0,µM,
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Candida albicans,50.0,µM,
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Staphylococcus aureus ATCC 29213,256.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Staphylococcus epidermidis,16.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Pseudomonas aeruginosa ATCC 27853,16.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Pseudomonas aeruginosa XJ75315,1.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli ATCC 35218,1.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli,1.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae XJ75297,1.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Salmonella typhimurium SL1344,1.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Shigella flexneri ATCC 12022,0.25,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Geotrichum candidum IBRC-M 30010,1.2,µg/ml,PDB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Geotrichum candidum IBRC-M 30010,2.4,µg/ml,PDA
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Botrytis cinerea IBRC-M 30162,0.14,µg/ml,PDB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Botrytis cinerea IBRC-M 30162,0.6,µg/ml,PDA
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Rhizoctonia solani IRAN 2957,0.6,µg/ml,PDB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Rhizoctonia solani IRAN 2957,1.2,µg/ml,PDA
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Alternaria tenuissima,0.6,µg/ml,PDB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Alternaria tenuissima,1.2,µg/ml,PDA
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Fusarium fujikuroi NBRC 9976,0.3,µg/ml,PDB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Fusarium fujikuroi NBRC 9976,0.6,µg/ml,PDA
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli XJ141015,2.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli XJ141047,2.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae XJ155017,8.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae XJ155018,8.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae XJ155019,8.0,µg/ml,MHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli ATCC 25922,1.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae ATCC 43816,2.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae NCTC 13443,8.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae,2.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella oxytoca,2.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Shigella flexneri,0.5,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Citrobacter freundii,4.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Salmonella enterica subsp. enterica serovar Typhimurium,4.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Klebsiella aerogenes,2.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Enterobacter cloacae,8.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Raoultella planticola,2.0,µg/ml,CAMHB
+850,Thanatin,GSKKPVPIIYCNRRTGKCQRM,Human cervical carcinoma HeLa,773.0,µM,
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli ATCC 25922,8.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli ATCC 700926,8.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli MB4902,2.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae ATCC 13883,8.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae ATCC 700603,64.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae ATCC BAA-2146,256.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Pseudomonas aeruginosa ATCC 27853,256.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Bacillus subtilis ATCC 6051,128.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Staphylococcus aureus ATCC 43300,256.0,µg/ml,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Candida albicans ATCC 90028,64.0,µg/ml,YEPD
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Cryptococcus neoformans ATCC 208821,64.0,µg/ml,YEPD
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Staphylococcus aureus ATCC 25923,1.0,µM,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Bacillus subtilis,2.0,µM,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Streptococcus pyogenes ATCC 19615,0.5,µM,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Enterococcus faecalis ATCC 29212,0.5,µM,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Escherichia coli BL21,0.5,µM,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Pseudomonas aeruginosa ATCC 27853,1.0,µM,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Salmonella enterica subsp. enterica serovar Typhimurium ATCC 14028,1.0,µM,MHB
+852,Thanatin -AMD,GSKKPVPIIYCNRRTGKCQRM,Klebsiella pneumoniae ATCC 13883,1.0,µM,MHB
