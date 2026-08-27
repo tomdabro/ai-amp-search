@@ -177,7 +177,11 @@ def main() -> None:
         model.eval()
         total, n = 0.0, 0
         for _ in range(20):
-            ix = torch.randint(0, val_data.numel() - config.block_size - 1, (args.batch_size,))
+            hi = val_data.numel() - config.block_size - 1
+            if hi < 1:  # tiny val split: single sliding window
+                ix = torch.zeros(max(1, args.batch_size), dtype=torch.long)
+            else:
+                ix = torch.randint(0, hi, (args.batch_size,))
             x = torch.stack([val_data[i:i + config.block_size] for i in ix]).to(device)
             y = torch.stack([val_data[i + 1:i + 1 + config.block_size] for i in ix]).to(device)
             _, loss = model(x, y)

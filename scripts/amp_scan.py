@@ -58,6 +58,13 @@ AROMATIC = {"F", "W", "Y"}
 FEATURES = ["length", "mw", "pI", "charge_pH7", "hydrophobicity",
             "hydrophobic_moment", "frac_hydrophobic", "frac_charged",
             "frac_aromatic", "boman"]
+BOMAN_ENERGY = {  # side-chain transfer free energies, cyclohexane->water
+    # (kcal/mol; Boman 1989 / Radzicka & Wolfenden 1988, modlamp table)
+    "L": -4.92, "I": -4.92, "V": -4.04, "F": -2.98, "M": -2.35,
+    "W": -2.33, "A": -1.81, "C": -1.28, "G": -0.94, "Y": 0.14,
+    "T": 2.57, "S": 3.40, "H": 4.66, "Q": 5.54, "K": 5.55,
+    "N": 6.64, "E": 6.81, "D": 8.72, "R": 14.92, "P": 0.00,
+}
 
 
 def _charge_at_pH7(seq: str) -> float:
@@ -133,7 +140,7 @@ def features(seq: str) -> list[float]:
         sum(1 for a in seq if a in HYDROPHOBIC) / n,
         sum(1 for a in seq if a in CHARGED) / n,
         sum(1 for a in seq if a in AROMATIC) / n,
-        float(np.mean([abs(v) for v in kd])),  # Boman index (approx)
+        sum(BOMAN_ENERGY.get(a, 0.0) for a in seq) / n,  # Boman index
     ]
 
 

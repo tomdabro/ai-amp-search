@@ -62,9 +62,14 @@ def main() -> None:
     # Sample sequences.
     start = torch.tensor([[stoi["M"]]], dtype=torch.long, device=device)
     seqs = []
+    rng = torch.Generator().manual_seed(args.seed)
     with torch.no_grad():
         for _ in range(args.n):
-            out = model.generate(start, max_new_tokens=45,
+            # Char-level GPT has no stop token: sample a target length
+            # (5-50 aa) per candidate, else every peptide is exactly
+            # max_new_tokens long.
+            n_tokens = int(torch.randint(5, 51, (1,), generator=rng))
+            out = model.generate(start, max_new_tokens=n_tokens,
                                  temperature=args.temperature)
             s = "".join(itos[int(i)] for i in out[0].tolist()[1:])
             if 5 <= len(s) <= 50:

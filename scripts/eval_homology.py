@@ -94,9 +94,7 @@ def main() -> None:
     print(f"  train {len(train_idx)} seqs ({len(train_clusters)} clusters), "
           f"test {len(test_idx)} seqs ({len(clusters) - n_train_clusters} clusters)")
 
-    # Build the dataset: positives (cluster-split) + negatives (random split).
-    X_pos = np.array([pos_seqs[i] for i in train_idx + test_idx])
-    y_pos = np.array([1] * len(train_idx) + [1] * len(test_idx))
+
     # negatives: random split
     neg_perm = rng.permutation(len(neg_seqs))
     n_tr = int(0.8 * len(neg_seqs))

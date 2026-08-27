@@ -181,13 +181,11 @@ predicting hemolysis of antimicrobial peptides based on machine
 learning approaches. *Protein Science* 34(7).
 [DOI: 10.1002/pro.70087](https://doi.org/10.1002/pro.70087)
  
- ```bash
- /opt/anaconda3/bin/python3 scripts/train_hemolysis.py \
-
 ```bash
 /opt/anaconda3/bin/python3 scripts/train_hemolysis.py \
     --data data/hemolysis_train.csv --out models
 ```
+
 
 Verified: acc 0.994 | AUC 0.998 | PR-AUC 0.998 (884 peptides, balanced).
 
@@ -234,6 +232,7 @@ All trained models are published on the Hugging Face Hub:
 | `esm_amp.joblib` | AMP classifier (frozen ESM-2 + LR) | 3 KB | acc 0.992, honest AUC 0.971 |
 | `hemolysis.joblib` | toxicity classifier | 3 KB | acc 0.994, AUC 0.998 |
 | `amp_gpt.pt` | converged GPT (2.69M params) | 10.8 MB | val perplexity 10.13 |
+| `amp_scan.joblib` | physicochemical RF (AMP + log10 MIC) | 141 MB | acc 0.986, AUC 0.999 |
 | `esm_finetuned.pt` | 35M ESM-2 fine-tuned end-to-end | 134 MB | acc 0.956, AUC 0.990 |
 
 The GitHub repo ships code + data only (models are regenerable via
