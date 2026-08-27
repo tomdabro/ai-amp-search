@@ -96,7 +96,7 @@ The full discovery pipeline (the AllTheBacteria/APEX workflow, on a
 laptop):
 
 ```bash
-# 1. Train a character-level GPT on AMP sequences (0.81M params, MPS)
+# 1. Train a character-level GPT on AMP sequences (2.69M params, MPS)
 /opt/anaconda3/bin/python3 scripts/train_gpt.py --data data --out models
 
 # 2. Generate novel candidates, filter by ESM-2 activity + hemolysis
@@ -105,10 +105,11 @@ laptop):
     --hemo models/hemolysis.joblib --n 2000 --top 20
 ```
 
-Verified: GPT trained in 14s on MPS (loss 2.23, perplexity 9.31 vs 20
-for random). From 2,000 sampled sequences, **62 novel candidates** pass
-AMP >= 0.9 AND hemolysis < 0.3 — all absent from the training data.
-Top hit: AMP 0.995, hemolysis 0.032.
+Verified: GPT trained to convergence on MPS (100 epochs, val split,
+cosine LR schedule) — best val perplexity 10.13 at epoch 40, best
+checkpoint saved. From 2,000 sampled sequences, **80 novel
+candidates** pass AMP >= 0.9 AND hemolysis < 0.3 — all absent from the
+training data. Top hit: AMP 0.987, hemolysis 0.112.
 
 ## Fine-tuned ESM-2 (Strategy 2: fine-tune, not frozen embeddings)
 
@@ -116,11 +117,26 @@ Top hit: AMP 0.995, hemolysis 0.032.
 /opt/anaconda3/bin/python3 scripts/finetune_esm.py --data data --out models
 ```
 
-Fine-tunes the full 7.53M-param ESM-2 with a classification head end
-to end on MPS (49s, 3 epochs): acc 0.950 | AUC 0.987. This is the
+Fine-tunes the full 33.5M-param ESM-2 (t12_35M) with a classification
+head end to end on MPS (6 epochs): acc 0.956 | AUC 0.990. This is the
 "adapt an existing bio-LLM" path — the frozen-embedding logistic
 regression is the fast baseline; the fine-tuned model is the real
 training.
+
+## Trained models on Hugging Face
+
+All trained models are published on the Hugging Face Hub:
+**https://huggingface.co/tomekdab/amp-scan-models**
+
+| File | What | Size | Verified |
+|------|------|------|----------|
+| `esm_amp.joblib` | AMP classifier (frozen ESM-2 + LR) | 3 KB | acc 0.992, honest AUC 0.971 |
+| `hemolysis.joblib` | toxicity classifier | 3 KB | acc 0.994, AUC 0.998 |
+| `amp_gpt.pt` | converged GPT (2.69M params) | 10.8 MB | val perplexity 10.13 |
+| `esm_finetuned.pt` | 35M ESM-2 fine-tuned end-to-end | 134 MB | acc 0.956, AUC 0.990 |
+
+The GitHub repo ships code + data only (models are regenerable via
+`scripts/train_*.py`); the Hub hosts the trained artifacts.
 +
 +And on the known-peptide test:
 +
