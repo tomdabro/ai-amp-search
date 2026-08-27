@@ -3,8 +3,16 @@
 A CLI tool for scientists: given any peptide sequence or FASTA file,
 predict (1) whether it is antimicrobial (AMP probability) and (2) its
 activity against *E. coli* (predicted log10 MIC in uM). Includes a
-generative pipeline that designs novel AMP candidates, filtered for
-activity and toxicity.
+ generative pipeline that designs novel AMP candidates, filtered for
+ activity and toxicity.
+
+> **Status: learning project — subject to change.** This is
+> a self-directed ML-in-biology learning project built to demonstrate skills
+> (protein language models, generative modeling, honest evaluation),
+> not a validated research tool. The models are trained on public
+> data and have NOT been experimentally validated; predictions are
+> hypotheses for lab testing, not clinical results. APIs, models, and
+> numbers may change as the project evolves.
 
 **Why this matters:** antimicrobial peptides (AMPs) are the leading
 candidate to replace failing antibiotics. Romania has among the EU's
