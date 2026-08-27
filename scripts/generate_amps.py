@@ -81,7 +81,7 @@ def main() -> None:
 
     # Known sequences (for novelty check).
     known = set()
-    with open("data/grampa.csv") as fh:
+    with open(Path("data") / "grampa.csv") as fh:
         for r in csv.DictReader(fh):
             known.add(r["sequence"].upper())
 
