@@ -9,9 +9,6 @@ tags:
   - drug-discovery
 library_name: transformers
 pipeline_tag: text-classification
-datasets:
-  - GRAMPA (Witten & Witten 2019)
-  - ConsAMPHemo (Xie et al. 2025)
 ---
 
 # AMP-Scan models
